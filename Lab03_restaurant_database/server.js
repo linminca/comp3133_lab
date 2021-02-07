@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json()); // Make sure it comes back as json
 
 //TODO - Replace you Connection String here
-mongoose.connect('mongodb+srv://dbAdmin:C$MYGy4dss@cluster0.shjls.mongodb.net/gbc-full-stack?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://dbAdmin:<password>@cluster0.shjls.mongodb.net/gbc-full-stack?retryWrites=true&w=majority', {
   useCreateIndex: true,  
   useNewUrlParser: true,
   useUnifiedTopology: true
